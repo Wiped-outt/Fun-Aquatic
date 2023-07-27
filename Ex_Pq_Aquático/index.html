@@ -1,92 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Parque Aquático</title>
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon" />
-  <!-- Estilos (Link CSS) -->
-  <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wepets | página inicial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logomarca sem texto.png" type="image/x-icon">
 </head>
 <body>
+<!-- header -->
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="sprint/logomarca.png" alt="logo"></a>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Pesquisar...">
+        <span class="iconify" data-icon="basil:search-outline" style="color: #f1c043;"></span>
+    </div>
 
-  <!-- ___________________________________________________________________ -->
-  <!-- Cabeçalho -->
-
-  <header>
-    <img src="img/Logo.png" alt="Logo do Parque Aquático">
-    <h1>Parque Aquático</h1>
-    <!-- Links -->
     <nav>
-      <a href="index.html">Home</a>
-      <a href="atracoes.html">Atrações</a>
-      <a href="contato.html">Formulário de contato</a>
-    </nav>
-    <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-      <input type="text" placeholder="Pesquisar...">
-      <button type="submit">Pesquisar</button>
-    </div>
-  </header>
-
-  <!-- ___________________________________________________________________ -->
-  <!-- Main -->
-
-  <main>
-    <!-- Slides -->
-    <section class="slides">
-      <img src="images/slide1.jpg" alt="Slide 1">
-      <img src="images/slide2.jpg" alt="Slide 2">
-      <img src="images/slide3.jpg" alt="Slide 3">
-    </section>
-    <!-- Principais atrações -->
-    <section class="principais">
-      <h2>Características</h2>
-      <ul>
-        <li>10 tobogãs</li>
-        <li>3 piscinas</li>
-        <li>Rio lento</li>
-        <li>Espaço infantil</li>
-        <li>Serviço de alimentação</li>
-        <li>Estacionamento gratuito</li>
-      </ul>
-    </section>
-    <!-- Horários -->
-    <section class="funcionamento">
-      <h2>Horários</h2>
-      <p>Segunda a sexta-feira: 10h às 18h</p>
-      <p>Sábado e domingo: 9h às 19h</p>
-    </section>
-    <!-- Ingressos -->
-    <section class="ingressos">
-      <h2>Ingressos</h2>
-      <p>Adultos: R$ 50</p>
-      <p>Crianças (3 a 12 anos): R$ 25</p>
-      <p>Idosos (acima de 60 anos): R$ 20</p>
-    </section>
-    <!-- Nossos números -->
-    <section class="numeros">
-        <h2>Nossos números</h2>
-        <ul>
-          <li>500.000 de visitantes por ano</li>
-          <li>20 piscinas</li>
-          <li>97% de satisfação do cliente</li>
+        <ul id="MenuItems">
+            <li><a href="isabelle.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="Login.html">Login</a></li>
         </ul>
-      </section>
-  </main>
-
-  <!-- ___________________________________________________________________ -->
-  <!-- Rodapé -->
-
-  <footer>
-    <p>Copyright &copy; 2023 Parque Aquático</p>
-    <div class="redes-sociais">
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
+    </nav>
+    <div>
+        <a href=""><img class="iconify3" src="sprint/perfil-removebg-preview.png" width="35px" alt="perfil" ></a>
     </div>
-  </footer>
+</header>
+<main>
+<div class="small-container"> <br> <br>
 
+<!-- carrossel -->
+<div class="slider">
+    <div class="slides-container">
+        <div class="slide">
+        <img src="images/banner.png" alt="Imagem 1">
+        </div>
+        <div class="slide">
+        <img src="images/3814373.jpg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+        <img src="images/73962.jpg" alt="Imagem 3">
+        </div>
+    </div>
+      
+    <div class="controls">
+        <button class="prev-button">&#8249;</button>
+        <button class="next-button">&#8250;</button>
+    </div>
+</div> <br>
+
+<!-- produtos -->
+
+<h2 class="title">favoritos dos nossos <span>clienpets</span></h2>
+
+<div class="small-container">
+<div class="row">
+    <div class="col-4">
+        <img src="images/ração.png" alt="">
+        <h4>Ração para cachorro adulto - Pedigree</h4>
+    <p>R$158,99</p>
+    </div>
+    <div class="col-4">
+        <img src="images/antipulgas.png" alt="">
+        <h4>Antipulgas para cachorro - 10mg</h4>
+        <p>R$9,99</p>
+    </div>
+    <div class="col-4">
+        <img class="shampoo" src="images/shampoo.png" alt="">
+        <h4>Shampoo para cachorro 500ml</h4>
+        <p>R$25,99</p>
+    </div>
+</div>
+</div>
+      
+<script src="teste.js"></script>
+    
 </body>
 </html>
