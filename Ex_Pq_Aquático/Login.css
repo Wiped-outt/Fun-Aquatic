@@ -24,7 +24,7 @@ body {
   padding: 0;
   color: #222222;
   background-color: #f2f2f0d4;
-  background-color: #164B60;
+  background-color: #5D0A90;
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ a:hover {
 }
 
 .social-login ul li a:hover {
-  background-color: #A2FF86;
+  background-color: #f1c043c7;
   color: #0e090e;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.781), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
@@ -230,7 +230,7 @@ li.fb a::before {
 .the-form [class="input"] {
     text-decoration: none  ;
 text-align: center;
-  background: #A2FF86;
+  background: #f1c043;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 18px;
   font-size: 20px;
@@ -253,5 +253,5 @@ text-align: center;
 }
 
 .form-footer div a {
-  color: #A2FF86;
+  color: #f1c043;
 }
