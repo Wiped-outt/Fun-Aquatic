@@ -5,31 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wepets | página inicial</title>
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/logomarca sem texto.png" type="image/x-icon">
+    <!-- Link para a lupa -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link rel="shortcut icon" href="images/logo we.png" type="image/x-icon">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
 <body>
 <!-- header -->
 <header>
-    <div class="logo">
-        <a href="index.html"><img src="sprint/logomarca.png" alt="logo"></a>
-    </div>
-    <div class="search">
-        <input type="text" placeholder="Pesquisar...">
-        <span class="iconify" data-icon="basil:search-outline" style="color: #f1c043;"></span>
-    </div>
+  <div class="logo">
+    <a href="index.html">
+      <img src="sprint/logomarca.png" alt="logo">
+    </a>
+  </div>
+  <div class="search">
+    <input type="text" placeholder="Pesquisar...">
+    <span class="iconify" data-icon="iconamoon:search-bold" style="color: white;" data-width="22"></span>
+  </div>
 
-    <nav>
-        <ul id="MenuItems">
-            <li><a href="isabelle.html">Produtos</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="Login.html">Login</a></li>
-        </ul>
-    </nav>
-    <div>
-        <a href=""><img class="iconify3" src="sprint/perfil-removebg-preview.png" width="35px" alt="perfil" ></a>
-    </div>
+  <nav>
+    <ul id="MenuItems">
+      <li><a href="isabelle.html">produtos</a></li>
+      <li><a href="sobre.html">sobre</a></li>
+      <li><a href="Login.html">login</a></li>
+    </ul>
+  </nav>
+  <div class="login">
+    <a href="Login.html"><span class="iconify" data-icon="gridicons:user" style="color: #f1c043;" data-width="42"></span></a>
+    <a href="carrinho.html"><span class="iconify" data-icon="mdi:cart-outline" style="color: #f1c043;" data-width="42"></span></a>
+  </div>
 </header>
+
 <main>
 <div class="small-container"> <br> <br>
 
@@ -37,10 +50,10 @@
 <div class="slider">
     <div class="slides-container">
         <div class="slide">
-        <img src="images/banner.png" alt="Imagem 1">
+        <img src="images/rio lento.png" alt="Imagem 1">
         </div>
         <div class="slide">
-        <img src="images/3814373.jpg" alt="Imagem 2">
+        <img src="images/banho e tosa2.png" alt="Imagem 2">
         </div>
         <div class="slide">
         <img src="images/73962.jpg" alt="Imagem 3">
@@ -60,9 +73,9 @@
 <div class="small-container">
 <div class="row">
     <div class="col-4">
-        <img src="images/ração.png" alt="">
-        <h4>Ração para cachorro adulto - Pedigree</h4>
-    <p>R$158,99</p>
+        <a href="grazy.html"><img src="images/ração.png" alt=""></a>
+        <h4></a> Ração para cachorro adulto - Pedigree</h4>
+    <p>R$158,00</p>
     </div>
     <div class="col-4">
         <img src="images/antipulgas.png" alt="">
@@ -76,6 +89,72 @@
     </div>
 </div>
 </div>
+
+<!-- footer -->
+<footer>
+  <div class="main-content">
+    <div class="left box">
+      <h2> Sobre nós</h2>
+      <div class="content">
+        <p>Somos uma empresa que trabalha com o melhor para seu pet!</p>
+
+           <div class="icon">
+      <img src="images/logomarca.png" alt="" class="footerimg">
+
+          <a href="instagram.com"><span class="iconify" data-icon="logos:instagram-icon" style="color: black;" data-width="40"></span></a>
+          <a href=""><span class="iconify" data-icon="bxl:facebook-circle" style="color: black;" data-width="40"></span></a>
+          </div>
+        
+      </div>
+    </div> 
+    <div class="center box">
+      <h2>Endereço</h2>
+      <div class="content">
+        <div class="place">
+                      <span class="iconify" data-icon="streamline:travel-map-location-pin-navigation-map-maps-pin-gps-location" style="color: black;" data-width="20"></span>
+          <span class="text">Av. Santos Dumont, 300</span>
+                      
+        </div>
+
+        <div class="phone">
+                      <span class="iconify" data-icon="gridicons:phone" style="color: black;" data-width="20"></span>
+          <span class="text">+55 11 4002-8922</span>
+        </div>
+
+        <div class="email">
+                      <span class="iconify" data-icon="mdi:gmail" style="color: black;" data-width="20"></span>
+          <span class="text">wepetscontact@gmail.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="right box">
+      <h2>Contato</h2>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email *</div>
+            <input type="email" required>
+          </div>
+          <div class="msg">
+            <div class="text">Mensagem *</div>
+            <textarea rows="2" cols="25" required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div> 
+  <div class="bottom">
+    <div class="center">
+      <span class="credit">Criado por <a href="index.html">wepets</a></span>
+      <span class="far fa-copyright">2023 wepets copyright</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
       
 <script src="teste.js"></script>
     
