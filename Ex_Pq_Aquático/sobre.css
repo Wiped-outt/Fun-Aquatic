@@ -19,7 +19,7 @@
 
 body {
   font-family: 'Oceanwide';
-  background-color: #1763f1;
+  background-color: #5D0A90;
 }
 
 header {
@@ -29,16 +29,16 @@ header {
   padding: 10px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  background: #0312e6;
+  background: #9B7ABB;
 }
 
-h3 {
+h3{
   margin-top: 10px;
   font-size: 20px;
 }
 
 .logo img{
-  width: 80px;
+    width: 80px;
 }
 
 .logo a {
@@ -49,28 +49,24 @@ h3 {
 .search input {
   padding: 1px;
   border-radius: 15px;
-  background-color: #ffdd1c;
+  background-color: #F1C043;
   border: none;
 }
-
-.iconify {
+.iconify{
   width: 60px;
 }
-
-.iconify2 {
+.iconify2{
   width: 150px;
 }
-
 #MenuItems {
   display: flex;
   padding: 0 45px;
   justify-content: space-between;
 }
-
 #MenuItems a {
   text-decoration: none;
   padding: 0 20px;
-  color: #F1C043;
+  color:  #F1C043;
   font-size: 18px;
   font-weight: bolder;
   list-style: none;
@@ -86,15 +82,15 @@ h3 {
 
 a {
   list-style: none;
+  padding: 10px;
 }
-
-ol {
+ol { 
   counter-reset: item;
   list-style-type: none;
 }
 
-li {
-  display: block;
+li { 
+  display: block; 
 }
 
 .search,
@@ -115,8 +111,6 @@ input {
   color: #FFF !important;
 }
 
-/* Responsividade */
-
 @media (max-width: 768px) {
   .logo img {
     width: 60px;
@@ -136,127 +130,67 @@ input {
   .login {
     margin-top: 10px;
   }
-
+  .carrinho {
+    margin-top: 10px;
+  }
+  .carrinho a:hover {
+    color: #FFF;
+  }
 }
 
-.slides-container{
-size: 100%;
+body {
+    background-color: #5D0A90;
 }
 
-.slider {
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
-}
-  
-.slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1.0s ease-in-out;
-}
-  
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-  
-.slide.active {
-    opacity: 1;
-}
-  
-.prev-button,
-.next-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    font-size: 60px;
-    color: #d9d9d9;
-    cursor: pointer;
-}
-  
-.prev-button {
-    left: 10px;
-}
-  
-.next-button {
-    right: 10px;
-}
-
-/* produtos clienpets */
-.col-4 {
-    flex-basis: 25%;
+.sobre {
+    color: white;
+    font-size: 20px;
     padding: 10px;
-    min-width: 200px;
-    margin-bottom: 15px;
-    transition: transform 0.5s;
-}
-.col-4 img{
-    width: 100%;
-
 }
 
-a {
-    font-family: 'Oceanwide';
-    text-decoration: none;
+.loja {
+    color: #F1C043;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.contato {
+    color: #F1C043;
+    justify-content: end;
+    flex-direction: row;
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.principais {
+    color: #F1C043;
+    font-size: 25px;
+}
+.inferior {
+    display: flex;
+}
+.lateral {
+    margin-left: 50px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.we {
+    font-style: italic;
     color: #FFF2BC;
-  }
-  p {
-    font-family: 'Oceanwide';
-    color: #FFF2BC;
-  }
-
-.col-4:hover {
-  transform: translateY(-5px);
 }
-.col-4 p {
-  font-size: 14px;
-
-}
-
-.row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.title {
-    font-family: 'Oceanwide';
-    text-align: center;
-    margin-top: 20px;
-    position: relative;
-    line-height: 60px;
+.pets {
     color: #F1C043;
 }
-  
-.title::after {
-    content: '';
-    background: #4363ee;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.tit{
+    display: flex;
+    align-items: center;
+    font-size: 165px;
 }
-
-
-h4 {
-    font-family: 'Oceanwide';
-    color: #F1C043;
-    font-weight: normal;
-}
-
-span{
-    color: #FFF2BC;
+.somos{
+    margin-left: 20px;
+    font-size: 30px;
+    color: #fff;
 }
 
 /* footer */
@@ -264,7 +198,7 @@ footer{
   position: relative;
   bottom: 0px;
   width: 100%;
-  background: #0b0253;
+  background: #9b7abb;
 }
 
 .footerimg{
@@ -403,7 +337,7 @@ footer{
 .bottom .center{
   padding: 5px;
   font-size: 15px;
-  background: #220afa;;
+  background: #9b7abb;;
   text-align: center;
 }
 .bottom .center span{
