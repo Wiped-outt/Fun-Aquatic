@@ -18,6 +18,7 @@
 }
 
 body {
+  height: 100vh;
   font-family: 'Oceanwide';
   background-color: #1763f1;
 }
@@ -261,8 +262,9 @@ span{
 
 /* footer */
 footer{
+  
   position: relative;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   background: #0b0253;
 }
